@@ -1,0 +1,16 @@
+* {
+  color: red;
+}
+
+#first {
+  background-color: blue;
+}
+
+.second {
+  background-color: green;
+}
+
+a[href='https://www.naver.com']
+{
+  background-color: brown;
+}

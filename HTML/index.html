@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="jiwoon" />
+    <meta name="description" content="멋진 일정관리를 위한 서비스입니다." />
+    <meta name="keywords" content="일정관리, 성공, 규칙" />
+    <link rel="icon" href="../assets/calendar_icon_192645.ico" />
+    <title>일정관리</title>
+    <style>
+      div.first {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- div 태그 예시 -->
+    <div class="first">1번</div>
+    <div class="second">2번</div>
+    <div class="third">3번</div>
+
+    <!-- h 태그 예시 -->
+    <h1>h1 입니다.</h1>
+    <h2>h2 입니다.</h2>
+    <h3>h3 입니다.</h3>
+
+    <!-- img 태그 예시 -->
+    <div>
+      <img
+        src="http://image.dongascience.com/Photo/2020/03/5bddba7b6574b95d37b6079c199d7101.jpg"
+        alt="강아지 사진"
+        width="100"
+        height="100"
+      />
+    </div>
+
+    <!-- input 태그 예시 -->
+    <label for="name">Name (4 to 8 characters):</label>
+    <input
+      type="text"
+      id="name"
+      name="name"
+      required
+      minlength="4"
+      maxlength="8"
+    />
+    <br />
+
+    <input class="favorite styled" type="button" value="클릭하세요." />
+    <br />
+
+    <input type="checkbox" id="scales" name="scales" checked />
+    <label for="scales">Scales</label>
+    <br />
+
+    <label for="pass">Password (8 characters minimum):</label>
+    <input type="password" id="pass" name="password" minlength="8" required />
+    <br />
+
+    <label for="email">Enter your globex.com email:</label>
+
+    <input
+      type="email"
+      id="email"
+      pattern=".+@globex\.com"
+      size="30"
+      required
+    />
+    <br />
+
+    <label for="tentacles">Number of tentacles (10-100):</label>
+
+    <input type="number" id="tentacles" name="tentacles" min="10" max="100" />
+    <br />
+
+    <input type="radio" id="huey" name="drone" value="huey" checked />
+    <label for="huey">Huey</label>
+    <input type="radio" id="dewey" name="drone" value="dewey" />
+    <label for="dewey">Dewey</label>
+
+    <script src="../assets/main.js"></script>
+  </body>
+</html>
