@@ -1,0 +1,36 @@
+.size {
+  font-size: 2rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Noto+Sans+KR:wght@500&display=swap");
+
+/* 쉼표로 구분해서 여러개의 폰트를 지정할 수 있습니다. */
+/* 첫번째 폰트가 우선 적용되지만 만약 그것을 지정할 수 없는 경우 다음 글꼴이 적용됩니다. */
+.family {
+  font-family: "Nanum Myeongjo", serif;
+}
+
+.weight {
+  font-weight: 700;
+}
+
+.line-height {
+  line-height: 1.5;
+}
+
+/* block 속성에 적용 p, div .. */
+.text-align {
+  text-align: center;
+}
+
+.text-decoration {
+  text-decoration: line-through;
+}
+
+.text-overflow {
+  width: 200px;
+  border: 1px solid black;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

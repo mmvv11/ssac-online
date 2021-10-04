@@ -14,3 +14,7 @@ a[href='https://www.naver.com']
 {
   background-color: brown;
 }
+
+[custom] {
+  color: aqua;
+}
