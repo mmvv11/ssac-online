@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 div {
   width: 500px;
   height: 500px;
@@ -15,44 +10,40 @@ div {
 }
 
 .color {
-  background-color: red;
+  background-color: blue;
 }
 
 .image {
-  background-image: linear-gradient(
-      rgba(0, 0, 255, 0.5),
-      rgba(255, 255, 0, 0.5)
-    ),
-    url("./image/mydog.jpg"), url("./image/cat.png");
+  /* background-image: url("../image/dog.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; */
+  background: url("../image/dog.jpg") no-repeat center / contain;
 }
 
 .size {
-  background-image: url("./image/mydog.jpg");
-  background-size: contain;
+  background-image: url("../image/dog.jpg");
+
+  background-size: cover;
 }
 
 .repeat {
-  background-image: url("./image/mydog.jpg");
-  background-repeat: round;
+  background-image: url("../image/dog.jpg");
+  background-size: contain;
+  background-repeat: space;
 }
 
 .position {
-  width: 1000px;
-  height: 1000px;
-  background-image: url("./image/mydog.jpg");
+  background-image: url("../image/dog.jpg");
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
 }
 
 .attachment {
-  background-image: url("./image/mydog.jpg");
-  background-attachment: scroll;
-}
-
-.clip {
-  margin: 10px;
-  padding: 50px;
-  border: 10px dotted red;
-  background-image: url("./image/mydog.jpg");
-  background-clip: text;
+  background-image: url("../image/dog.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
